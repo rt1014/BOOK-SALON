@@ -1,0 +1,135 @@
+html {
+    font-weight: 550;
+    background-color: rgb(230, 230, 230);
+    font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+    color: rgb(65, 65, 65);
+}
+body {
+    background-color: white;
+    margin: auto;
+    width: 65%;
+    border: black 1px solid;
+}
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.container img {
+    object-fit: contain;
+    width: 500px;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.header_user {
+    float: right;
+    margin-right: 5%;
+}
+#main_to_login, #logout {
+    float: right;
+}
+.search {
+    display: flex;
+    margin: 0 10px 0 auto;
+}
+#search-text {
+    width: 250px;
+    height: 20px;
+    margin: auto 10px auto 0;
+}
+#search-button {
+    height: 25px;
+    text-align: center;
+    margin: auto;
+}
+#search-button, #main_to_login, #logout {
+    border-radius: 10px;
+    cursor: pointer;
+}
+#cart img {
+    height: 35px;
+    width: 40px;
+}
+nav {
+    display: flex;
+    margin: 70px 30px 30px 30px;
+    justify-content: space-between;
+    border-bottom: gray solid 1px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav label {
+    font-size: 1.5vw;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+.TOP, .boy, .young, .girl, .novel, .utility, .photo{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 0.7vw;
+    width: 6vw;
+    text-align: center;
+}
+    .TOP {
+        border: tomato solid 1px;
+        background-color: tomato;
+    }
+    .boy {
+        border: rgb(64, 173, 206) solid 1px;
+        background-color: rgb(64, 173, 206);
+    }
+    .young {
+        border: rgb(66, 68, 199) solid 1px;
+        background-color: rgb(66, 68, 199);
+    }
+    .girl {
+        border: rgb(247, 112, 217) solid 1px;
+        background-color: rgb(247, 112, 217);
+    }
+    .novel {
+        border: rgb(241, 161, 57) solid 1px;
+        background-color: rgb(241, 161, 57);
+    }
+    .utility {
+        border: rgb(252, 225, 74) solid 1px;
+        background-color: rgb(252, 225, 74);
+    }
+    .photo {
+        border: rgb(100, 236, 145) solid 1px;
+        background-color: rgb(100, 236, 145);
+    }
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0 0 10% 0;
+}
+section {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.item {
+    width: 180px;
+    height: 280px;
+    text-align: center;
+    margin: 20px;
+}
+.item li {
+    margin-top: 10px;
+}
+.page_num {
+    right: 5px;
+    bottom: 10px;
+    position: absolute;
+}
+#detail {
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}

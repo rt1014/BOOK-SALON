@@ -1,0 +1,81 @@
+html {
+    font-weight: 550;
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+    font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+    color: rgb(65, 65, 65);
+}
+body {
+    background-color: rgb(250, 250, 250);
+    margin: auto;
+    width: 65%;
+    height: auto;
+    border: black 1px solid;
+}
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.container img {
+    object-fit: contain;
+    width: 500px;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.header_user {
+    float: right;
+    margin-right: 5%;
+}
+#main_to_login, #logout {
+    float: right;
+}
+.search {
+    display: flex;
+    margin: 0 10px 10px auto;
+}
+#search-text {
+    width: 250px;
+    height: 20px;
+    margin: auto 10px auto 0;
+}
+#search-button {
+    height: 25px;
+    text-align: center;
+    margin: auto;
+}
+#search-button, #main_to_login, #logout, #in_cart {
+    border-radius: 10px;
+    cursor: pointer;
+}
+#cart img {
+    height: 35px;
+    width: 40px;
+}
+#in_cart {
+    background-color: rgb(253, 188, 91);
+}
+.item {
+    display: flex;
+    margin: 15% auto;
+    width: 80%;
+    /* flex-wrap: wrap; */
+    overflow: auto;
+}
+.item img {
+    margin-right: 60px;
+    height: 300px;
+    width: 200px;
+}
+.item_text {
+    font-size: 100%;
+    position: relative;
+}
+.item a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.return {
+    display: inline-block;
+}

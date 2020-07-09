@@ -1,0 +1,54 @@
+html {
+    font-weight: 550;
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+    font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+    color: rgb(65, 65, 65);
+}
+body {
+    background-color: rgb(250, 250, 250);
+    margin: auto;
+    width: 65%;
+    height: 100%;
+    border: black 1px solid;
+}
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.container img {
+    object-fit: contain;
+    width: 500px;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.header_user {
+    margin: auto;
+}
+#logout, #purchased, #delete, #detail {
+    cursor: pointer;
+    border-radius: 10px;
+}
+#logout {
+    float: right;
+}
+.thank_you {
+    margin: 20% auto;
+    width: 50%;
+    text-align: center;
+    font-size: 150%;
+    font-family: monospace;
+}
+.thank_you img {
+    max-width: 100%;
+    width: 500px;
+    margin-bottom: 5%;
+}
+.thank_you p {
+    padding: 5%;
+}
+.thank_you a{
+    display: inline-block;
+    padding: 5%;
+}
